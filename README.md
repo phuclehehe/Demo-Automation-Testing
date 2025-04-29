@@ -18,7 +18,9 @@ mvn clean install
 mvn clean test
 ```
 ## Structure
-
+1. Test case:
+- All test cases in excel file
+2. Automation code:
 - `src/main/java/TestObject/`: Page Object Model classes (`LoginPage`, `ProductsPage`, `CartPage`, `CheckoutPage`, `MenuPage`).
 - `src/test/java/`: Test scripts (`TestLogin`, `TestProducts`, `TestAbout`, `TestCart`, `TestReset`, `TestLogout`).
 - `pom.xml`: Maven dependencies.
